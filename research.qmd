@@ -1,0 +1,75 @@
+---
+title: ""
+toc: true
+toc-location: right
+toc-title: "On this page"  # Custom title for the TOC
+toc-depth: 3
+format:
+  html:
+    css: custom.scss
+    include-in-header:
+      - text: |
+          <script src="research-script.js"></script>
+---
+
+## Research interests
+
+In my research, I draw on empirical political science and (normative) political theory to address contemporary issues of political participation and representation in Europe. Currently, I am writing a thesis on the role of so called [democratic innovations in the EU](https://citizens.ec.europa.eu/european-citizens-panels_en) – initiatives such as Citizens' Assemblies that aim at institutional reforms to involve citizens directly in policy and decision making.
+The monograph explores the implications of this case for the potential to further democratise the European institutions and the desirability of such forms of institutional design more generally. Based on the main empirical and theoretical contributions of this research project, I am working on different papers, some of which you can find below. Further research interests that connect to the main focus of my work include the study and formation of public opinion in (Western) Europe and mixed-methods designs.
+
+*Area of specialisation*: European institutions, democratic theory\
+*Area of competence*: EU politics and integration, qualitative research methods, contemporary political theory, social theory and 20th cent. social thought
+
+## Work in progress
+
+:::::: folding-section
+::: folding-header
+[Innovating European democracy? Troubling promises of citizen participation in the EU]{.header-main}[\[PhD thesis\]]{.header-right}
+:::
+
+::: folding-content
+[Abstract]{.abstract-toggle}
+:::
+
+::: {.full-content .small-text}
+*— Monograph, submission date in Sep. 2025 at LSE*
+
+Participatory and deliberative innovations such as citizens' assemblies are increasingly promoted to rejuvenate liberal democracy; by expanding the role of citizens in public policy-making, they should increase the legitimacy of political decision-making and contain the rise of anti-system politics. The PhD project focuses on the case of the EU, where such innovations are experimented with and claimed to address changing public expectations of more direct political engagement and a democratic disconnect between the EU institutions and European citizens. Integrating both original empirical research and normative analysis, I scrutinise these promises and develop an account of the added value of such innovations in the spirit of non-ideal democratic theory. The thesis argues that the case for participatory innovation in the EU is marked by normative tensions and contradictions that have implications for the desirability of this form of institutional design more generally and the potential to further democratise EU decision-making in particular.
+
+*Keywords: European integration; empirical democratic theory; legitimation; democratic innovations; realism*
+:::
+::::::
+
+:::::: folding-section
+::: folding-header
+[Simulating democratic reform in the EU]{.header-main}[\[Working paper\]]{.header-right}
+:::
+
+::: folding-content
+[Abstract]{.abstract-toggle}
+:::
+
+::: {.full-content .small-text}
+*— Draft presented at the PSA Annual Conference 2024, Glasgow*
+
+The European Union has increasingly experimented with forms of direct citizen engagement, such as citizens' assemblies. While the emergence of these initiatives can generally be explained in terms of institutional legitimation, the rise of ‘participatory and deliberative democracy’ poses empirical puzzles: its strategic utility in terms of both public and external legitimation seems elusive. Grounded in an exploratory empirical study, I propose a new theoretical account to understand this development, arguing that the rise of the participatory and deliberative norm should be described as a form of democratic simulation. It is a simulative form of democratic reform insofar as it is established by self-referential patterns in the interactions of the actors who advocate, implement, and sponsor these processes. The design of the processes, their objective demand, as well as their (institutional) value can be created by this field of actors themselves. The theoretical argument is grounded in evidence from document analysis of institutional discourse, network data on affiliations between actors in the field, and 45 elite interviews. The concluding part of the article discusses normative implications and avenues for further empirical research.
+
+*Keywords: legitimation; European institutions; democratic innovations; elite interviews; affiliation networks*
+:::
+::::::
+
+:::::: folding-section
+::: folding-header
+[The many-public: Challenging the empirical legitimacy of deliberative innovations]{.header-main}[\[Working paper, with [Elena Pro](https://elena-pr.github.io)\]]{.header-right}
+:::
+
+::: folding-content
+[Abstract]{.abstract-toggle}
+:::
+
+::: {.full-content .small-text}
+Citizens' assemblies and other deliberative mini-publics (DMPs) are promoted as means to rejuvenate liberal democracy in the West. Advocates and scholars of DMPs maintain that these forms of direct citizen engagement are externally legitimate: their process is likely to find public acceptance, their outcomes to be perceived as fairer than those of mere representative institutions – not only amongst participants in the DMP itself. Based on the synthesis of different strands of empirical evidence and an original qualitative study, we challenge this proposition. We conduct 34 vignette-based group interviews in selected regions of three purposively sampled Western European countries (Germany, Ireland, and Italy) to understand how different social groups react to and form opinions on DMPs. Against this background, our study re-analyses observational and experimental evidence on public perceptions of DMPs to argue that it is implausible to interpret support for these processes and their outcomes as judgements of political legitimacy. As sponsored and designed forms of participation, DMPs can mean many yet contradictory things to different groups of citizens and in different political contexts. Extrapolated to real scenarios of political opinion formation and decision-making in Europe, the study's results challenge the theoretical expectations of deliberative theory regarding the potential of DMPs to rejuvenate public confidence in the democratic process. The conclusion discusses avenues of further empirical research to test the studies' arguments.
+
+*Keywords: legitimation; European institutions; democratic innovations; elite interviews; affiliation networks*
+:::
+::::::

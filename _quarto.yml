@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+  - index.qmd
+  - research.qmd
+  - impressum.qmd
+  - teaching.qmd
+  - CV.qmd
+  - contact.qmd
+
+website:
+  title: "Paul A. Kindermann"
+  navbar:
+    left:
+      - href: research.qmd
+        text: Research
+      - href: CV.qmd
+        text: C.V.
+      - href: teaching.qmd
+        text: Teaching
+      - href: contact.qmd
+        text: Contact
+    
+  page-footer:
+    left: "© 2024 Paul A Kindermann"
+    right: 
+      - text: "Imprint & disclaimer"
+        href: impressum.qmd
+
+format:
+  html:
+    theme:
+    - litera
+    - custom.scss
+    fontsize: 1.0em
+
+editor: visual
+

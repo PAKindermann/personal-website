@@ -1,0 +1,487 @@
+/*-- scss:functions --*/
+@function colorToRGB ($color) {
+  @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color)+ ")";
+}
+
+/*-- scss:defaults --*/
+// Base font adjustment
+$font-family-base: "Garamond", "EB Garamond", "Garamond Premier Pro", "Adobe Garamond Pro", "ITC Garamond", "Garamond MT", "Bitstream Garamond", "Palatino Linotype", "Palatino", "Book Antiqua", "Georgia, serif" !default;
+
+// Heading font (sans-serif)
+$font-family-sans-serif: "Helvetica Neue", "Arial", Helvetica, sans-serif !default;
+$font-size-base:        1.0rem !default;
+$h1-font-size:          1.6rem !default;
+$h3-font-size:          1.2rem !default;
+$h4-font-size:          1.1rem !default;
+$headings-font-family: $font-family-sans-serif !default;
+$headings-font-weight:  500 !default;
+
+h1, h2, h3, h5, h6 {
+  font-family: $headings-font-family;
+  color: black !important;
+}
+
+// New style for h1
+h1 {
+  position: relative;
+  padding-bottom: 0.5em; // Adjust as needed
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px; // Adjust thickness as needed
+    background-color: rgba(211, 211, 211, 0.6); // Light grey with 50% opacity
+  }
+}
+
+// New style for h4
+h4, .h4 {
+  color: rgb(38,67,72) !important;
+}
+
+// Navbar etc.
+$navbar-bg:             rgb(38,67,72);
+$font-family-navbar:    $font-family-sans-serif !default;
+$toc-active-border:     white;
+
+/*-- scss:rules --*/
+body,
+.grid,
+.g-col-12,
+.profile-content,
+.quarto-container,
+[class*="-page"],
+.index-page,
+.research-page,
+.impressum-page,
+.cv-page,
+.contact-page, {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+}
+
+.small-text {
+  font-size: 0.9em;
+}
+
+.navbar {
+  font-family: $font-family-navbar;
+  min-height: 50px;  // Adjust this value as needed
+}
+
+// Adjust link colors
+
+// General link styles (this will affect all links except navbar links)
+a:not(.navbar a):not(.footer a) {
+  color: rgb(0,73,83) !important;
+  text-decoration: none !important;
+  position: relative !important;
+  display: inline-block !important; // Ensure inline-block display
+  
+  &::after {
+    content: '' !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 1px !important;
+    bottom: -1px !important; // Slightly lower the underline
+    left: 0 !important;
+    border-bottom: 1px dotted rgb(0,73,83) !important;
+    pointer-events: none !important; // Ensure the pseudo-element doesn't interfere with clicks
+  }
+  
+  &:hover {
+    color: rgb(49,120,115) !important;
+    
+    &::after {
+      border-bottom: 1px solid rgb(49,120,115) !important;
+    }
+  }
+}
+
+// Styles for TOC Heading
+#quarto-margin-sidebar {
+  nav[role="doc-toc"] > h2 {
+    font-family: $headings-font-family;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $navbar-bg;
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Styles for links in the sidebar
+#quarto-margin-sidebar {
+  .nav-link {
+    font-family: $font-family-sans-serif !important;
+    color: inherit !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    
+    &::after {
+      display: none; // Remove the dotted underline for sidebar links
+    }
+    
+    &:hover {
+      color: rgb(49,120,115) !important;
+      text-decoration: underline !important;
+    }
+    
+    &.active {
+      color: rgb(49,120,115) !important;
+      font-weight: bold !important;
+    }
+  }
+}
+
+// Specific styles for footer links
+.footer {
+  .nav-footer {
+    .footer-items {
+      .nav-item {
+        a {
+          color: inherit;
+          text-decoration: none;
+          
+          &::after {
+            display: none;
+          }
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Keep these font-related styles
+.row p, .row div, .profile-container p, .profile-container div {
+  font-family: $font-family-base;
+}
+
+.row *, .profile-container * {
+  font-family: inherit;
+}
+
+// Keep and modify this for the start page
+body > .quarto-container:first-of-type {
+  padding-top: 3rem;
+}
+
+// New body layout
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.quarto-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.quarto-title-block {
+  order: -1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+// New styles for main content wrapper
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.profile-container {
+  display: flex;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  * {
+    font-size: inherit;
+  }
+}
+
+.profile-image, .profile-content {
+  width: 100%;
+}
+
+.profile-image {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.profile-content {
+  font-size: 1rem !important;
+  font-weight: normal;
+
+  h1:first-child {
+    margin-top: 0;
+  }
+}
+
+// New sidebar styles
+.sidebar-links {
+  background-color: none;
+  padding: 0rem;
+  border-radius: 4px;
+  margin-top: 0rem;
+  max-width: 115px;
+
+  h2 {
+    font-family: $headings-font-family;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: $navbar-bg;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      a {
+        font-family: $font-family-sans-serif;
+        color: rgb(0,73,83);
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: rgb(49,120,115);
+          text-decoration: underline !important;
+        }
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+// New rule about the CV
+body:not(.cv-page) .quarto-container {
+  max-width: 1100px; // Adjust this value as needed
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv-page .quarto-container {
+  max-width: 1500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// CV adjustments 
+.cv-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-x: auto; // Allow horizontal scrolling if needed
+}
+
+.cv-embed {
+  width: 100%;
+  height: 800px;
+  border: 1px solid #ddd;
+  max-width: 100%; // Ensure it doesn't exceed container width
+}
+
+// Add the new folding section styles here
+.folding-section {
+  margin-bottom: 1rem;
+  
+  .folding-header {
+    font-size: 1rem;
+    font-family: $font-family-sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-bottom: -0.6rem;
+    padding: 0.3rem 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+    hyphens: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; // Changed from center to allow wrapping of main content
+
+    .header-main {
+      flex: 1;
+      margin-right: 1rem; // Space between main content and right element
+      overflow-wrap: break-word; // Allow long words to break
+      max-width: calc(100% - 3rem); // Ensure space for .header-right
+    }
+    
+    .header-right {
+      flex-shrink: 0; // Prevent shrinking
+      font-weight: normal; // Reset font weight
+      white-space: nowrap; // Prevent wrapping
+      align-self: flex-start; // Align to top if main content wraps
+    }
+  }
+
+    .folding-content {
+    margin-top: 0rem;
+
+    .abstract-toggle {
+      display: inline-block;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: rgb(0,73,83);
+      cursor: pointer;
+      padding: 0.1em 0.6em;
+      border: 2px solid rgb(0,73,83);
+      border-radius: 15px;
+      transition: all 0.3s ease;
+
+      &::before {
+        content: none; // Remove the triangle
+      }
+
+      &:hover {
+        background-color: rgb(0,73,83);
+        color: white;
+      }
+    }
+
+    .full-content {
+      // Add a border to all full-content divs to make them visible
+      display: none;
+      padding-top: 0.5rem;
+    }
+  }
+
+  &.active {
+    .folding-content {
+      .abstract-toggle {
+        background-color: rgb(0,73,83);
+        color: white;
+      }
+      
+      .full-content {
+        display: block;
+      }
+    }
+  }
+}
+
+// Media queries
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-content {
+    flex: 1 1 auto;
+    margin-right: 2rem;
+    max-width: calc(100% - 115px - 2rem);
+  }
+
+  .profile-container {
+    flex-wrap: nowrap;
+  }
+
+  .profile-image {
+    width: 33.333%;
+    padding-right: 2rem;
+  }
+
+  .profile-content {
+    width: 66.667%;
+  }
+
+  .sidebar-links {
+    flex: 0 0 auto;
+    margin-top: 0;
+    display: block;
+    width: 115px;
+  }
+
+  .mobile-find-me {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #d3d3d3;
+    
+    img {
+      max-width: 200px;
+      height: auto;
+      max-height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  .profile-content {
+    width: 100%;
+    padding-top: 0.5rem;
+  }
+
+  .sidebar-links {
+    display: none;
+  }
+
+  .mobile-find-me {
+    display: block;
+    margin-top: 1rem;
+    // border-top: 1px solid #d3d3d3;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-image img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
