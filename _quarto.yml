@@ -33,7 +33,6 @@ format:
     theme:
     - litera
     - custom.scss
-    fontsize: 1.0em
 
 editor: visual
 

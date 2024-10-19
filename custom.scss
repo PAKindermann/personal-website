@@ -4,12 +4,16 @@
 }
 
 /*-- scss:defaults --*/
+// Set specific pixel size for root element
+$font-size-root: 17px !default;
+$font-size-base: 1rem !default;
+
 // Base font adjustment
 $font-family-base: "Garamond", "EB Garamond", "Garamond Premier Pro", "Adobe Garamond Pro", "ITC Garamond", "Garamond MT", "Bitstream Garamond", "Palatino Linotype", "Palatino", "Book Antiqua", "Georgia, serif" !default;
 
 // Heading font (sans-serif)
 $font-family-sans-serif: "Helvetica Neue", "Arial", Helvetica, sans-serif !default;
-$font-size-base:        1.0rem !default;
+$font-size-base:        1rem !default;
 $h1-font-size:          1.6rem !default;
 $h3-font-size:          1.2rem !default;
 $h4-font-size:          1.1rem !default;
@@ -48,25 +52,25 @@ $font-family-navbar:    $font-family-sans-serif !default;
 $toc-active-border:     white;
 
 /*-- scss:rules --*/
-body,
-.grid,
-.g-col-12,
-.profile-content,
+// Set specific pixel size for root element
+html {
+  font-size: $font-size-root;
+}
+
+// Add more specific font sizes for body elements
+body, 
 .quarto-container,
 [class*="-page"],
-.index-page,
-.research-page,
-.impressum-page,
-.cv-page,
-.contact-page, {
-  font-family: $font-family-base;
-  font-size: $font-size-base;
+.profile-content,
+p, div, li {
+  font-size: 1rem;
 }
 
 .small-text {
-  font-size: 0.9em;
+  font-size: 0.875rem;  // Instead of 0.9em
 }
 
+// Existing styles
 .navbar {
   font-family: $font-family-navbar;
   min-height: 50px;  // Adjust this value as needed
@@ -160,14 +164,9 @@ a:not(.navbar a):not(.footer a) {
   }
 }
 
-
 // Keep these font-related styles
 .row p, .row div, .profile-container p, .profile-container div {
   font-family: $font-family-base;
-}
-
-.row *, .profile-container * {
-  font-family: inherit;
 }
 
 // Keep and modify this for the start page
@@ -221,14 +220,10 @@ footer {
 
 .profile-container {
   display: flex;
-  font-size: 1rem;
   flex-wrap: wrap;
   align-items: flex-start;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  * {
-    font-size: inherit;
-  }
 }
 
 .profile-image, .profile-content {
@@ -245,7 +240,7 @@ footer {
 }
 
 .profile-content {
-  font-size: 1rem !important;
+  font-size: 1rem;
   font-weight: normal;
 
   h1:first-child {
@@ -295,7 +290,6 @@ footer {
     }
   }
 }
-
 
 // New rule about the CV
 body:not(.cv-page) .quarto-container {
@@ -359,7 +353,7 @@ body:not(.cv-page) .quarto-container {
     }
   }
 
-    .folding-content {
+  .folding-content {
     margin-top: 0rem;
 
     .abstract-toggle {
@@ -391,6 +385,24 @@ body:not(.cv-page) .quarto-container {
   }
 
   &.active {
+    position: relative;
+    padding-left: 1rem; // Add padding to make space for the line
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1px;
+      height: 100%;
+      background-color: #d3d3d3; // Light grey color
+    }
+
+    .folding-header {
+      margin-left: -1rem; // Align header with non-active sections
+      padding-left: 1rem; // Add padding to header for spacing from line
+    }
+
     .folding-content {
       .abstract-toggle {
         background-color: rgb(0,73,83);
@@ -399,6 +411,7 @@ body:not(.cv-page) .quarto-container {
       
       .full-content {
         display: block;
+        padding-top: 0.5rem;
       }
     }
   }
@@ -443,6 +456,10 @@ body:not(.cv-page) .quarto-container {
 }
 
 @media (max-width: 767px) {
+  html {
+    font-size: 14px; // Slightly smaller base size on mobile
+  }
+
   .profile-container {
     flex-direction: column;
   }
@@ -464,6 +481,7 @@ body:not(.cv-page) .quarto-container {
 
   .profile-content {
     width: 100%;
+    font-size: 16px;  
     padding-top: 0.5rem;
   }
 
@@ -474,7 +492,6 @@ body:not(.cv-page) .quarto-container {
   .mobile-find-me {
     display: block;
     margin-top: 1rem;
-    // border-top: 1px solid #d3d3d3;
     padding-top: 1rem;
   }
 }
