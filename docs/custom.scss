@@ -386,21 +386,16 @@ body:not(.cv-page) .quarto-container {
 
   &.active {
     position: relative;
-    padding-left: 1rem; // Add padding to make space for the line
-    
-    &::before {
+    padding-bottom: 1rem; // Add some space for the line
+
+    &::after {
       content: '';
       position: absolute;
-      top: 0;
+      bottom: 0;
       left: 0;
-      width: 1px;
-      height: 100%;
+      width: 100%;
+      height: 1px;
       background-color: #d3d3d3; // Light grey color
-    }
-
-    .folding-header {
-      margin-left: -1rem; // Align header with non-active sections
-      padding-left: 1rem; // Add padding to header for spacing from line
     }
 
     .folding-content {
@@ -411,7 +406,6 @@ body:not(.cv-page) .quarto-container {
       
       .full-content {
         display: block;
-        padding-top: 0.5rem;
       }
     }
   }
