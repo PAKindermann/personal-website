@@ -185,18 +185,24 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  max-width: 1500px; // Increased from 1100px
+  width: 98%; // Added to ensure some margin on very large screens
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-wrapper {
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; // Changed from column to row
+  justify-content: space-between;
 }
 
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin-right: 2rem; // Add some space between main content and sidebar
 }
 
 .quarto-title-block {
@@ -299,7 +305,7 @@ footer {
 
 // New rule about the CV
 body:not(.cv-page) .quarto-container {
-  max-width: 1100px; // Adjust this value as needed
+  max-width: 1500px; // Adjust this value as needed
   margin-left: auto;
   margin-right: auto;
 }
@@ -467,7 +473,7 @@ body:not(.cv-page) .quarto-container {
   .main-content {
     flex: 1 1 auto;
     margin-right: 2rem;
-    max-width: calc(100% - 115px - 2rem);
+    max-width: calc(100% - 130px - 2rem);
   }
   .profile-container {
     flex-wrap: nowrap;
@@ -483,7 +489,7 @@ body:not(.cv-page) .quarto-container {
     flex: 0 0 auto;
     margin-top: 0rem;
     display: block;
-    width: 115px;
+    width: 130px;
   }
   .mobile-find-me {
     display: none;
@@ -505,11 +511,11 @@ body:not(.cv-page) .quarto-container {
     flex-wrap: nowrap;
   }
   .profile-image {
-    width: 33.333%;
+    width: 30%;
     padding-right: 2rem;
   }
   .profile-content {
-    width: 66.667%;
+    width: 70%;
   }
   .sidebar-links {
     flex: 0 0 auto;
