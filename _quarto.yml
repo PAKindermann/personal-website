@@ -10,7 +10,7 @@ project:
   - contact.qmd
 
 website:
-  title: "Paul A. Kindermann"
+  title: "Paul Kindermann"
   navbar:
     left:
       - href: research.qmd
