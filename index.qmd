@@ -12,7 +12,7 @@ title: ""
 ::: profile-content
 I am a PhD researcher at the London School of Economics and Political Science, working at the intersection of empirical political science and (normative) political theory. Currently in my final year of doctoral research, I specialise in the comparative study of political participation and institutional design in Europe as well as EU studies, with a particular focus on the European Commission – see [my CV](CV.qmd) for further details.
 
-In my doctoral [research](research.qmd), I study the promises of novel and more direct forms of citizens participation in light of current sociopolitical challenges to democratic institutions in Europe. Focusing on the case of the EU, my PhD project combines original, qualitative research, secondary survey analyses, and integration theory to assess the role of participatory and deliberative innovations – such as [Citizens’ Assemblies](https://globalcit.eu/representing-european-citizens-why-a-european-citizens-assembly-should-complement-the-european-parliament/2/) – in the European Institutions. The research has been funded by [LSE](https://www.lse.ac.uk/study-at-lse/Graduate/Fees-and-funding/PhD-Studentships), [UACES](https://www.uaces.org/funding/scholarships), and a project grant from the [Otto Brenner Foundation](https://www.otto-brenner-stiftung.de/wissenschaftsportal/projektantragsverfahren).
+In my doctoral [research](research.qmd), I study the promises of novel and more direct forms of citizens participation in light of current sociopolitical challenges to democratic institutions in Europe. Focusing on the case of the EU, my PhD project combines original, qualitative research, secondary survey analyses, and integration theory to assess the role of participatory and deliberative innovations – such as [Citizens’ Assemblies](https://globalcit.eu/representing-european-citizens-why-a-european-citizens-assembly-should-complement-the-european-parliament/2/){target="_blank"} – in the European Institutions. The research has been funded by [LSE](https://www.lse.ac.uk/study-at-lse/Graduate/Fees-and-funding/PhD-Studentships){target="_blank"}, [UACES](https://www.uaces.org/funding/scholarships){target="_blank"}, and a project grant from the [Otto Brenner Foundation](https://www.otto-brenner-stiftung.de/wissenschaftsportal/projektantragsverfahren){target="_blank"}.
 
 During my graduate studies in Europe and the United States, I have [taught](teaching.qmd) seminars on these subjects at LSE, in Frankfurt, and Hamburg. Besides, I am a mentor at the Friedrich-Ebert-Foundation. Please [get in touch](contact.qmd) about collaborations, ideas, and questions!
 :::
@@ -28,13 +28,13 @@ London School of Economics (LSE)*
 
 ## Find me at
 
--   [LSE](https://www.lse.ac.uk/european-institute/people/kindermann-paul)
--   [ORCiD](https://orcid.org/0000-0002-0695-9509)
--   [Bluesky](https://bsky.app/profile/paulkindermann.bsky.social)
--   [Github](https://github.com/PAKindermann)
+-   [LSE](https://www.lse.ac.uk/european-institute/people/kindermann-paul){target="_blank"}
+-   [ORCiD](https://orcid.org/0000-0002-0695-9509){target="_blank"}
+-   [Bluesky](https://bsky.app/profile/paulkindermann.bsky.social){target="_blank"}
+-   [Github](https://github.com/PAKindermann){target="_blank"}
 :::
 
 ::: mobile-find-me
-Find me at: [LSE](https://www.lse.ac.uk/european-institute/people/kindermann-paul) \| [ORCiD](https://orcid.org/0000-0002-0695-9509) \| [Bluesky](https://bsky.app/profile/paulkindermann.bsky.social) \| [Github](https://github.com/PAKindermann)
+Find me at: [LSE](https://www.lse.ac.uk/european-institute/people/kindermann-paul){target="_blank"} \| [ORCiD](https://orcid.org/0000-0002-0695-9509){target="_blank"} \| [Bluesky](https://bsky.app/profile/paulkindermann.bsky.social){target="_blank"} \| [Github](https://github.com/PAKindermann){target="_blank"}
 :::
 :::::::::

@@ -14,8 +14,7 @@ format:
 
 ## Research interests
 
-In my research, I draw on empirical political science and (normative) political theory to address contemporary issues of political participation and representation in Europe. Currently, I am writing a thesis on the role of so called [democratic innovations in the EU](https://citizens.ec.europa.eu/european-citizens-panels_en) – initiatives such as Citizens' Assemblies that aim at institutional reforms to involve citizens directly in policy and decision making.
-The monograph explores the implications of this case for the potential to further democratise the European institutions and [the desirability](https://globalcit.eu/representing-european-citizens-why-a-european-citizens-assembly-should-complement-the-european-parliament/2) of such forms of institutional design more generally.
+In my research, I draw on empirical political science and (normative) political theory to address contemporary issues of political participation and representation in Europe. Currently, I am writing a thesis on the role of so called [democratic innovations in the EU](https://citizens.ec.europa.eu/european-citizens-panels_en){target="_blank"} – initiatives such as Citizens' Assemblies that aim at institutional reforms to involve citizens directly in policy and decision making. The monograph explores the implications of this case for the potential to further democratise the European institutions and [the desirability](https://globalcit.eu/representing-european-citizens-why-a-european-citizens-assembly-should-complement-the-european-parliament/2){target="_blank"} of such forms of institutional design more generally.
 
 Based on the main empirical and theoretical contributions of the doctoral project, I am working on different papers, some of which you can find below. I specialise in the comparative study of political participation and institutional design in Europe as well as EU studies, with a particular focus on the European Commission. Further research interests that connect to the main focus of my work include the study and formation of public opinion in (Western) Europe and mixed-methods, with a problem-driven approach to research design.
 
@@ -62,7 +61,7 @@ The European Union has increasingly experimented with forms of direct citizen en
 
 :::::: folding-section
 ::: folding-header
-[The many-public: Challenging the empirical legitimacy of deliberative innovations]{.header-main}[\[Working paper, with [Elena Pro](https://elena-pr.github.io)\]]{.header-right}
+[The many-public: Challenging the empirical legitimacy of deliberative innovations]{.header-main}[\[Working paper, with [Elena Pro](https://elena-pr.github.io){target="_blank"}\]]{.header-right}
 :::
 
 ::: folding-content
@@ -75,3 +74,15 @@ Citizens' assemblies and other deliberative mini-publics (DMPs) are promoted as 
 *Keywords: legitimation; European institutions; democratic innovations; elite interviews; affiliation networks*
 :::
 ::::::
+
+## Projects
+
+### European Regional Democracy Map
+
+As part of the [Regioparl project](https://www.regioparl.com/?lang=en){target="_blank"} (2020-22), [Sarah Meyer](https://ucrisportal.univie.ac.at/en/persons/sarah-meyer){target="_blank"}, Mario Wolf, and I lead the design and implementation of the [European Regional Democracy Map](https://www.europeanregionaldemocracy.eu/){target="_blank"} (ERDM). The ERDM was conceived as a hub for various kinds of information and data on the structures and political dynamics of regional democracy in Europe. Researchers can find, explore, and download a broad array of data on regional government, regional election results and governing coalitions across the continent, as well as regional involvement in EU affairs.
+
+![](ERDM_Nov_2024.png){fig-alt="Screenshot of the European Regional Democracy Map showing exemplary variables"}
+
+The interactive web application provides an accessible set of tools to compare and visualise data directly on the map, allowing policy analysts and non-experts to research basic information and explore the diversity of regional political institutions. See [About the ERDM](https://www.europeanregionaldemocracy.eu/about){target="_blank"} for a full introduction to the project and its current features.
+
+![](ERDM_Nov_2024_2.png){fig-alt="Screenshot of the European Regional Democracy Map showing regional profile"}

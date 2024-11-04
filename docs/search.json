@@ -117,5 +117,12 @@
     "title": "Paul Kindermann",
     "section": "",
     "text": "PhD Researcher\nEuropean Institute\nLondon School of Economics (LSE)"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Paul Kindermann",
+    "section": "Projects",
+    "text": "Projects\n\nEuropean Regional Democracy Map\nAs part of the Regioparl project (2020-22), Sarah Meyer, Mario Wolf, and I lead the design and implementation of the European Regional Democracy Map (ERDM). The ERDM was conceived as a hub for various kinds of information and data on the structures and political dynamics of regional democracy in Europe. Researchers can find, explore, and download a broad array of data on regional government, regional election results and governing coalitions across the continent, as well as regional involvement in EU affairs.\n\nThe interactive web application provides an accessible set of tools to compare and visualise data directly on the map, allowing policy analysts and non-experts to research basic information and explore the diversity of regional political institutions. See About the ERDM for a full introduction to the project and its current features."
   }
 ]
