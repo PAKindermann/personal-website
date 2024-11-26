@@ -202,7 +202,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-right: 2rem; // Add some space between main content and sidebar
+  margin-right: 0rem; // Add some space between main content and sidebar
 }
 
 .quarto-title-block {
@@ -260,6 +260,7 @@ footer {
   padding: 0rem;
   border-radius: 4px;
   margin-top: 0rem;
+  margin-left: 2rem; // Add some space between main content and sidebar
   max-width: 130px;
   
   p, div:not(ul) {
@@ -334,7 +335,7 @@ body:not(.cv-page) .quarto-container {
 
 // Add the new folding section styles here
 .folding-section {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   
   .folding-header {
     font-size: 1rem;
