@@ -23,7 +23,7 @@ h1, h2, h3, h5, h6 {
   color: black !important;
 }
 
-// New style for h1
+// Style for h1
 h1 {
   position: relative;
   padding-bottom: 0.5em;
@@ -38,7 +38,7 @@ h1 {
   }
 }
 
-// New style for h4
+// Style for h4
 h4, .h4 {
   color: rgb(38,67,72) !important;
 }
@@ -54,12 +54,8 @@ html {
   font-size: $font-size-root;
 }
 
-// Add more specific font sizes for body elements
-body,
-.quarto-container,
-[class*="-page"],
-.profile-content,
-p, div, li {
+// Font sizes for body elements
+body, p, div, li {
   font-size: 1rem;
 }
 
@@ -67,13 +63,13 @@ p, div, li {
   font-size: 0.875rem;
 }
 
-// Existing styles
+// Navbar styles
 .navbar {
   font-family: $font-family-navbar;
   min-height: 50px;
 }
 
-// Define a mixin for the shared button styles
+// Define a mixin for button styles
 @mixin button-style {
   display: inline-block;
   padding: 0.1em 0.6em;
@@ -97,8 +93,8 @@ p, div, li {
   }
 }
 
-// Adjust links to exclude buttons
-a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link) {
+// Link styles
+a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.about-link) {
   color: rgb(0,73,83) !important;
   text-decoration: none !important;
   position: relative !important;
@@ -124,7 +120,76 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link) {
   }
 }
 
-// Styles for TOC Heading
+// ============================================
+// ABOUT PAGE STYLES (Home page using about template)
+// ============================================
+
+.about-entity {
+  font-family: $font-family-base;
+  
+  .about-image {
+    border-radius: 4px;
+  }
+  
+  .about-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    
+    .about-link {
+      padding: 0.4rem 0.8rem;
+      text-decoration: none;
+      color: rgb(0, 73, 83);
+      border: 1px solid rgb(0, 73, 83);
+      border-radius: 4px;
+      text-align: center;
+      transition: all 0.3s ease;
+      font-family: $font-family-sans-serif;
+      font-size: 0.9rem;
+      
+      &::after {
+        display: none;
+      }
+      
+      &:hover {
+        background-color: rgb(0, 73, 83);
+        color: white;
+      }
+    }
+  }
+  
+  .about-contents {
+    h2 {
+      font-family: $headings-font-family;
+      font-size: 1.3rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: rgb(38,67,72);
+      
+      // Remove the h1 underline for the about page title
+      &:first-child {
+        border: none;
+        padding-bottom: 0;
+        
+        &::after {
+          display: none;
+        }
+      }
+    }
+    
+    p {
+      font-family: $font-family-base;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// ============================================
+// TOC STYLES
+// ============================================
+
 #quarto-margin-sidebar {
   nav[role="doc-toc"] > h2 {
     font-family: $headings-font-family;
@@ -135,10 +200,7 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link) {
     padding-bottom: 0.7rem;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
   }
-}
-
-// Styles for links in the sidebar
-#quarto-margin-sidebar {
+  
   .nav-link {
     font-family: $font-family-sans-serif !important;
     color: inherit !important;
@@ -161,8 +223,13 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link) {
   }
 }
 
-// Specific styles for footer links
+// ============================================
+// FOOTER STYLES
+// ============================================
+
 .footer {
+  margin-top: 3rem;
+  
   .nav-footer {
     .footer-items {
       .nav-item {
@@ -183,161 +250,10 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link) {
   }
 }
 
-// Keep these font-related styles
-.row p, .row div, .profile-container p, .profile-container div {
-  font-family: $font-family-base;
-}
+// ============================================
+// CV PAGE STYLES
+// ============================================
 
-// Keep and modify this for the start page
-body > .quarto-container:first-of-type {
-  padding-top: 3rem;
-}
-
-// New body layout
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.quarto-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  max-width: 1500px;
-  width: 98%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.content-wrapper {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin-right: 0rem;
-}
-
-.quarto-title-block {
-  order: -1;
-}
-
-footer {
-  margin-top: auto;
-}
-
-// New styles for main content wrapper
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.main-content {
-  flex: 1;
-}
-
-.profile-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-
-.profile-image, .profile-content {
-  width: 100%;
-}
-
-.profile-image {
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.profile-content {
-  font-size: 1rem;
-  font-weight: normal;
-
-  h1:first-child {
-    margin-top: 0;
-  }
-}
-
-// New sidebar styles
-.sidebar-links {
-  background-color: none;
-  padding: 0rem;
-  border-radius: 4px;
-  margin-top: 0rem;
-  margin-left: 2rem;
-  max-width: 130px;
-
-  p, div:not(ul) {
-    font-size: 0.9rem;
-    font-family: $font-family-sans-serif;
-    color: $body-color;
-  }
-
-  h2 {
-    font-family: $headings-font-family;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    color: $navbar-bg;
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
-
-    li {
-      margin-bottom: 0.3rem;
-
-      a {
-        font-family: $font-family-sans-serif;
-        color: rgb(0,73,83);
-        text-decoration: none;
-        transition: color 0.3s ease;
-
-        &:hover {
-          color: rgb(49,120,115);
-          text-decoration: underline !important;
-        }
-
-        &::after {
-          display: none;
-        }
-      }
-    }
-  }
-}
-
-// New rule about the CV
-body:not(.cv-page) .quarto-container {
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cv-page .quarto-container {
-  max-width: 1500px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// CV adjustments
 .cv-container {
   width: 100%;
   max-width: 800px;
@@ -481,6 +397,10 @@ body:not(.cv-page) .quarto-container {
 
 // Mobile - stack elements
 @media (max-width: 767px) {
+  html {
+    font-size: 15px;
+  }
+  
   .folding-header {
     flex-direction: column; // Stack vertically
     gap: 0.5rem;
