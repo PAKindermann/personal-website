@@ -6,19 +6,15 @@ about:
   image-shape: rectangle
   image-width: 15rem
   links:
-    - text: LSE
-      href: https://www.lse.ac.uk/european-institute/people/kindermann-paul
     - text: ORCiD
       icon: mortarboard
       href: https://orcid.org/0000-0002-0695-9509
     - text: Bluesky
+      icon: bluesky
       href: https://bsky.app/profile/paulkindermann.bsky.social
-    - text: GitHub
-      icon: github
-      href: https://github.com/PAKindermann
 ---
 
-I am a PhD researcher at the London School of Economics and Political Science, working at the intersection of empirical political science and (normative) political theory. Currently in my final year of doctoral research, I specialise in the comparative study of political participation and institutional design in Europe as well as EU studies – see [my CV](CV.qmd) for further details. My [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy.
+I am a PhD researcher at the London School of Economics and Political Science ([LSE](https://www.lse.ac.uk/european-institute/people/kindermann-paul)), working at the intersection of empirical political science and (normative) political theory. Currently in my final year of doctoral research, I specialise in the comparative study of political participation and institutional design in Europe as well as EU studies – see [my CV](CV.qmd) for further details. My [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy.
 
 In my doctoral [research](research.qmd), I study the promises of novel and more direct forms of citizens participation in light of current sociopolitical challenges to democratic institutions in Europe. Focusing on the case of the EU, my PhD project combines original, qualitative research, secondary survey analyses, and integration theory to assess the role of participatory and deliberative innovations – such as [Citizens' Assemblies](https://globalcit.eu/representing-european-citizens-why-a-european-citizens-assembly-should-complement-the-european-parliament/2/){target="_blank"} – in the European Institutions. The research has been funded by [LSE](https://www.lse.ac.uk/study-at-lse/Graduate/Fees-and-funding/PhD-Studentships){target="_blank"}, [UACES](https://www.uaces.org/funding/scholarships){target="_blank"}, and a project grant from the [Otto Brenner Foundation](https://www.otto-brenner-stiftung.de/wissenschaftsportal/projektantragsverfahren){target="_blank"}.
 
