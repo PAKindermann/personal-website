@@ -7,10 +7,8 @@
 // Set specific pixel size for root element
 $font-size-root: 17px !default;
 $font-size-base: 1rem !default;
-
 // Base font adjustment
 $font-family-base: Garamond, "EB Garamond", "Garamond Premier Pro", "Adobe Garamond Pro", "ITC Garamond", "Garamond MT", "Bitstream Garamond", Palatino, "Palatino Linotype", Georgia, serif !default;
-
 // Heading font (sans-serif)
 $font-family-sans-serif: "Helvetica Neue", Arial, Helvetica, sans-serif !default;
 $font-size-base:        1rem !default;
@@ -28,16 +26,15 @@ h1, h2, h3, h5, h6 {
 // New style for h1
 h1 {
   position: relative;
-  padding-bottom: 0.5em; // Adjust as needed
-
+  padding-bottom: 0.5em;
   &::after {
     content: '';
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 1px; // Adjust thickness as needed
-    background-color: rgba(211, 211, 211, 0.6); // Light grey with 50% opacity
+    height: 1px;
+    background-color: rgba(211, 211, 211, 0.6);
   }
 }
 
@@ -58,7 +55,7 @@ html {
 }
 
 // Add more specific font sizes for body elements
-body, 
+body,
 .quarto-container,
 [class*="-page"],
 .profile-content,
@@ -67,38 +64,60 @@ p, div, li {
 }
 
 .small-text {
-  font-size: 0.875rem;  // Instead of 0.9em
+  font-size: 0.875rem;
 }
 
 // Existing styles
 .navbar {
   font-family: $font-family-navbar;
-  min-height: 50px;  // Adjust this value as needed
+  min-height: 50px;
 }
 
-/// Adjust links
+// Define a mixin for the shared button styles
+@mixin button-style {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  margin-left: 0.5em;
+  color: rgb(0, 73, 83);
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: 2px solid rgb(0, 73, 83);
+  transition: all 0.3s ease;
+  background-color: transparent;
 
-// General link styles (this will affect all links except navbar links)
-a:not(.navbar a):not(.footer a) {
+  &::after {
+    display: none;
+  }
+
+  &:hover {
+    background-color: rgb(0, 73, 83);
+    color: white;
+  }
+}
+
+// Adjust links to exclude buttons
+a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link) {
   color: rgb(0,73,83) !important;
   text-decoration: none !important;
   position: relative !important;
-  display: inline-block !important; // Ensure inline-block display
-  
+  display: inline-block !important;
+
   &::after {
-    content: '' !important;
+    content: '';
     position: absolute;
     width: 100%;
     height: 1px !important;
-    bottom: -1px !important; // Slightly lower the underline
+    bottom: -1px !important;
     left: 0 !important;
     border-bottom: 1px dotted rgb(0,73,83) !important;
-    pointer-events: none !important; // Ensure the pseudo-element doesn't interfere with clicks
+    pointer-events: none !important;
   }
-  
+
   &:hover {
     color: rgb(49,120,115) !important;
-    
+
     &::after {
       border-bottom: 1px solid rgb(49,120,115) !important;
     }
@@ -125,16 +144,16 @@ a:not(.navbar a):not(.footer a) {
     color: inherit !important;
     font-weight: normal !important;
     text-decoration: none !important;
-    
+
     &::after {
-      display: none; // Remove the dotted underline for sidebar links
+      display: none;
     }
-    
+
     &:hover {
       color: rgb(49,120,115) !important;
       text-decoration: underline !important;
     }
-    
+
     &.active {
       color: rgb(49,120,115) !important;
       font-weight: bold !important;
@@ -150,11 +169,11 @@ a:not(.navbar a):not(.footer a) {
         a {
           color: inherit;
           text-decoration: none;
-          
+
           &::after {
             display: none;
           }
-          
+
           &:hover {
             text-decoration: underline;
           }
@@ -185,8 +204,8 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  max-width: 1500px; // Increased from 1100px
-  width: 98%; // Added to ensure some margin on very large screens
+  max-width: 1500px;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -194,7 +213,7 @@ body {
 .content-wrapper {
   flex: 1;
   display: flex;
-  flex-direction: row; // Changed from column to row
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -202,7 +221,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-right: 0rem; // Add some space between main content and sidebar
+  margin-right: 0rem;
 }
 
 .quarto-title-block {
@@ -260,13 +279,13 @@ footer {
   padding: 0rem;
   border-radius: 4px;
   margin-top: 0rem;
-  margin-left: 2rem; // Add some space between main content and sidebar
+  margin-left: 2rem;
   max-width: 130px;
-  
+
   p, div:not(ul) {
-    font-size: 0.9rem; // Adjust this value as needed
+    font-size: 0.9rem;
     font-family: $font-family-sans-serif;
-    color: $body-color; // Use your defined body text color
+    color: $body-color;
   }
 
   h2 {
@@ -306,7 +325,7 @@ footer {
 
 // New rule about the CV
 body:not(.cv-page) .quarto-container {
-  max-width: 1500px; // Adjust this value as needed
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -318,88 +337,36 @@ body:not(.cv-page) .quarto-container {
   margin-right: auto;
 }
 
-// CV adjustments 
+// CV adjustments
 .cv-container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  overflow-x: auto; // Allow horizontal scrolling if needed
+  overflow-x: auto;
 }
 
 .cv-embed {
   width: 100%;
   height: 800px;
   border: 1px solid #ddd;
-  max-width: 100%; // Ensure it doesn't exceed container width
+  max-width: 100%;
 }
 
-// Add the new folding section styles here
+// ============================================
+// REVISED FOLDING SECTION STYLES - PROPERLY FIXED
+// ============================================
+
+// Folding section base styles
 .folding-section {
   margin-bottom: 1.5rem;
+  width: 100%; // Ensure full width
+  overflow: visible; // Don't hide overflow
   
-  .folding-header {
-    font-size: 1rem;
-    font-family: $font-family-sans-serif;
-    color: black;
-    font-weight: bold;
-    margin-bottom: -0.6rem;
-    padding: 0.3rem 0;
-    line-height: 1.5;
-    word-wrap: break-word;
-    hyphens: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; // Changed from center to allow wrapping of main content
-
-    .header-main {
-      flex: 1;
-      margin-right: 1rem; // Space between main content and right element
-      overflow-wrap: break-word; // Allow long words to break
-      max-width: calc(100% - 3rem); // Ensure space for .header-right
-    }
-    
-    .header-right {
-      flex-shrink: 0; // Prevent shrinking
-      font-weight: normal; // Reset font weight
-      white-space: nowrap; // Prevent wrapping
-      align-self: flex-start; // Align to top if main content wraps
-    }
-  }
-
-  .folding-content {
-    margin-top: 0rem;
-
-    .abstract-toggle {
-      display: inline-block;
-      font-size: 0.9em;
-      font-weight: normal;
-      color: rgb(0,73,83);
-      cursor: pointer;
-      padding: 0.1em 0.6em;
-      border: 2px solid rgb(0,73,83);
-      border-radius: 15px;
-      transition: all 0.3s ease;
-
-      &::before {
-        content: none; // Remove the triangle
-      }
-
-      &:hover {
-        background-color: rgb(0,73,83);
-        color: white;
-      }
-    }
-
-    .full-content {
-      display: none;
-      padding-top: 0.5rem;
-    }
-  }
-
+  // Active state
   &.active {
     position: relative;
-    padding-bottom: 1rem; // Add some space for the line
-
+    padding-bottom: 1rem;
+    
     &::after {
       content: '';
       position: absolute;
@@ -407,131 +374,159 @@ body:not(.cv-page) .quarto-container {
       left: 0;
       width: 100%;
       height: 1px;
-      background-color: #d3d3d3; // Light grey color
+      background-color: #d3d3d3;
     }
-
-    .folding-content {
-      .abstract-toggle {
-        background-color: rgb(0,73,83);
-        color: white;
-      }
-      
-      .full-content {
-        display: block;
-      }
+    
+    .abstract-toggle {
+      background-color: rgb(0,73,83);
+      color: white;
+    }
+    
+    .full-content {
+      display: block;
     }
   }
 }
 
-// Media queries
-@media (max-width: 767px) {
-  html {
-    font-size: 14px; // Slightly smaller base size on mobile
-  }
+// Folding header - simplified flex approach
+.folding-header {
+  display: flex;
+  flex-wrap: wrap; // Allow wrapping when needed
+  align-items: baseline; // Better alignment
+  gap: 1rem; // Use gap for consistent spacing
+  
+  // Base typography
+  font-size: 1rem;
+  font-family: $font-family-sans-serif;
+  color: black;
+  font-weight: bold;
+  margin-bottom: -0.6rem;
+  padding: 0.3rem 0;
+  line-height: 1.5;
+  
+  // Ensure content doesn't overflow
+  width: 100%;
+  max-width: 100%;
+}
 
-  .profile-container {
-    flex-direction: column;
-  }
+// Header main content
+.header-main {
+  flex: 1 1 70%; // Allow shrinking, prefer 70% width
+  min-width: 0; // Critical for text truncation in flexbox
+  
+  // Text handling - no breaking, just wrapping
+  word-wrap: normal;
+  word-break: normal; // Don't break words
+  overflow-wrap: normal; // Don't break words
+  hyphens: none !important; // Force no hyphenation
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  -ms-hyphens: none !important;
+  
+  // Ensure text stays visible
+  overflow: visible;
+  text-overflow: clip;
+}
 
-  .profile-image {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #d3d3d3;
-    
-    img {
-      max-width: 200px;
-      height: auto;
-      max-height: 200px;
-      object-fit: cover;
-    }
-  }
+// Header right content
+.header-right {
+  flex: 0 1 auto; // Can shrink if needed
+  font-weight: normal;
+  white-space: nowrap; // Keep journal info together
+  min-width: fit-content; // Ensure it doesn't get too small
+}
 
-  .profile-content {
-    width: 100%;
-    font-size: 16px;  
+// Folding content area
+.folding-content {
+  margin-top: 0;
+  
+  .abstract-toggle,
+  .external-link {
+    @include button-style;
+  }
+  
+  .full-content {
+    display: none;
     padding-top: 0.5rem;
   }
-
-  .sidebar-links {
-    display: none;
-  }
-
-  .mobile-find-me {
-    display: block;
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
 }
 
-// Tablet styles (768px to 991px)
-@media (min-width: 768px) and (max-width: 991px) {
-  .content-wrapper {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .main-content {
-    flex: 1 1 auto;
-    margin-right: 2rem;
-    max-width: calc(100% - 130px - 2rem);
-  }
-  .profile-container {
-    flex-wrap: nowrap;
-  }
-  .profile-image {
-    width: 30%;
-    padding-right: 1.5rem;
-  }
-  .profile-content {
-    width: 70%;
-  }
-  .sidebar-links {
-    flex: 0 0 auto;
-    margin-top: 0rem;
-    display: block;
-    width: 130px;
-  }
-  .mobile-find-me {
-    display: none;
-  }
-}
+// ============================================
+// RESPONSIVE ADJUSTMENTS
+// ============================================
 
-// Desktop styles (992px and up)
+// Larger screens - side by side layout
 @media (min-width: 992px) {
-  .content-wrapper {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .main-content {
-    flex: 1 1 auto;
-    margin-right: 2rem;
-    max-width: calc(100% - 130px - 2rem);
-  }
-  .profile-container {
-    flex-wrap: nowrap;
-  }
-  .profile-image {
-    width: 30%;
-    padding-right: 2rem;
-  }
-  .profile-content {
-    width: 70%;
-  }
-  .sidebar-links {
-    flex: 0 0 auto;
-    margin-top: -1rem; // Restore negative margin for larger screens
-    display: block;
-    width: 130px;
-  }
-  .mobile-find-me {
-    display: none;
+  .folding-header {
+    flex-wrap: nowrap; // Keep on one line on desktop
+    
+    .header-main {
+      flex: 1 1 auto;
+    }
+    
+    .header-right {
+      margin-left: auto; // Push to the right
+    }
   }
 }
 
-@media (max-width: 480px) {
-  .profile-image img {
-    max-width: 150px;
-    max-height: 150px;
+// Tablet - allow wrapping if needed
+@media (min-width: 768px) and (max-width: 991px) {
+  .folding-header {
+    .header-main {
+      flex: 1 1 60%; // Take up less space to leave room
+    }
   }
+}
+
+// Mobile - stack elements
+@media (max-width: 767px) {
+  .folding-header {
+    flex-direction: column; // Stack vertically
+    gap: 0.5rem;
+    
+    .header-main {
+      flex: 1 1 100%; // Full width
+      width: 100%;
+      
+      // Allow text to wrap naturally but don't break words
+      white-space: normal;
+      word-break: normal;
+      overflow-wrap: break-word; // Only break very long continuous strings
+    }
+    
+    .header-right {
+      flex: 1 1 100%; // Full width
+      font-size: 0.95rem;
+      white-space: normal; // Allow wrapping on mobile
+      align-self: flex-start; // Align to start
+    }
+  }
+}
+
+// Very small screens - emergency handling
+@media (max-width: 480px) {
+  .folding-header {
+    .header-main {
+      font-size: 0.95rem; // Slightly smaller text
+      
+      // Last resort - allow breaking very long words
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      // But still no hyphens
+      hyphens: none !important;
+    }
+    
+    .header-right {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Alternative fix: Force no hyphens globally for folding sections
+.folding-section * {
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  -ms-hyphens: none !important;
+  hyphens: none !important;
 }

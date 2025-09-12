@@ -14,18 +14,39 @@ format:
 
 ## Research interests
 
-My research is located at the intersection of comparative politics and political theory: I study the transformation of political participation and representation in liberal democracies and its implications for the desirability and feasibility of institutional reforms. Currently, I am writing my doctoral thesis on the role of so called democratic innovations in Europe – initiatives such as citizens' assemblies that aim at institutional reforms to involve citizens directly in policy and decision making. Through a study of the [EU](https://citizens.ec.europa.eu/european-citizens-panels_en){target="_blank"}, as an instructive case with broader implications, the thesis argues that this kind of institutional design may be innovating European democracy for the worse. It thus challenges their potential to further democratise the European institutions and [the desirability](https://globalcit.eu/representing-european-citizens-why-a-european-citizens-assembly-should-complement-the-european-parliament/2){target="_blank"} of such forms of institutional design more generally.
+My research is located at the intersection of comparative politics and political theory: I study the transformation of political participation and representation in liberal democracies and its implications for the desirability and feasibility of institutional reforms. Currently, I am writing my doctoral thesis on the role of so called democratic innovations in Europe – initiatives such as citizens' assemblies that aim at institutional reforms to involve citizens directly in policy and decision making. Through a study of the [EU](https://citizens.ec.europa.eu/european-citizens-panels_en){target="_blank"}, as an instructive case with broader implications, the thesis argues that this kind of institutional design may be innovating European democracy for the worse. It thus challenges their potential to further democratise the European institutions and the desirability] of such forms of institutional design more generally.
 
 Based on the main empirical and theoretical contributions of the doctoral project, I am working on different papers, some of which you can find below. I specialise in the comparative study of political participation and institutional design in Europe as well as EU studies, with a particular focus on the European Commission. Further research interests that connect to the main focus of my work include the study and formation of public opinion in (Western) Europe and mixed-methods, with a problem-driven approach to research design.
 
 *Area of specialisation*: Political participation, European institutions, democratic theory\
 *Area of competence*: EU politics and integration, qualitative research methods, contemporary political theory, social theory and 20th cent. social thought
 
+## Publications
+
+:::::: folding-section
+::: folding-header
+[Simulating democratic reform in the EU: self-legitimation through participatory innovation]{.header-main}[, Journal of European Public Policy, 2025, DOI: 10.1080/13501763.2025.2554911]{.header-right}
+:::
+
+::: folding-content
+[Abstract]{.abstract-toggle}
+[Article](https://doi.org/10.1080/13501763.2025.2554911){target="_blank" .external-link}
+[Data](https://doi.org/10.17605/OSF.IO/JHCXT){target="_blank" .external-link}
+:::
+
+::: {.full-content .small-text}
+The European Commission has increasingly invested in forms of direct citizen engagement, recently establishing European Citizens' Panels as part of its ‘new push for European Democracy’. While such processes have usually been explained as efforts at institutional legitimation, participatory innovations in the EU prove theoretically puzzling: Their strategic and functional value for the Commission remains elusive. This paper develops an alternative theoretical proposition: Rather than legitimating the Commission to an external audience, participatory innovation functions as a simulation of democratic reform that addresses a need for self-legitimation. The analysis demonstrates that participatory innovation can provide the means of self-legitimation precisely because it does not realise democratic participation but enacts a performance of democratic reform. This performance should be understood as a simulation of reform that is both produced by the Commission with a field of advocates, experts, and participation professionals, and designed primarily for this same field of actors. In this way, the instrumental value of participatory innovation lies in how it justifies the work and authority of the Commission to itself. The theoretical proposition is grounded in an empirical study that draws on document analysis of institutional discourse, data on affiliations between actors in the field, and elite interviews.
+
+*Keywords: legitimation; European Union; citizen engagement; democratic innovations; institutional reform; social theory*
+:::
+
+::::::
+
 ## Work in progress
 
 :::::: folding-section
 ::: folding-header
-[Innovating democracy for the worse? The promises of citizen participation in Europe]{.header-main}[\[PhD thesis\]]{.header-right}
+[Innovating democracy for the worse? The promises of citizen participation in Europe]{.header-main}[, PhD thesis]{.header-right}
 :::
 
 ::: folding-content
@@ -51,25 +72,7 @@ Combining comparative empirical research and democratic theory, the thesis devel
 
 :::::: folding-section
 ::: folding-header
-[Simulating democratic reform in the EU]{.header-main}[\[paper, under review\]]{.header-right}
-:::
-
-::: folding-content
-[Abstract]{.abstract-toggle}
-:::
-
-::: {.full-content .small-text}
-*— Paper presented at the PSA Annual Conference 2024, Glasgow*
-
-The European Union has increasingly experimented with forms of direct citizen engagement, such as citizens' assemblies. While the emergence of these initiatives can generally be explained in terms of institutional legitimation, the rise of ‘participatory and deliberative democracy’ poses empirical puzzles: its strategic utility in terms of both public and external legitimation seems elusive. Grounded in an exploratory empirical study, I propose a new theoretical account to understand this development, arguing that the rise of the participatory and deliberative norm should be described as a form of democratic simulation. It is a simulative form of democratic reform insofar as it is established by self-referential patterns in the interactions of the actors who advocate, implement, and sponsor these processes. The design of the processes, their objective demand, as well as their (institutional) value can be created by this field of actors themselves. The theoretical argument is grounded in evidence from document analysis of institutional discourse, network data on affiliations between actors in the field, and 45 elite interviews. The concluding part of the article discusses normative implications and avenues for further empirical research.
-
-*Keywords: legitimation; European Union; citizen engagement; democratic innovations; institutional reform; social theory*
-:::
-::::::
-
-:::::: folding-section
-::: folding-header
-[The many-public: Challenging the empirical legitimacy of deliberative innovations]{.header-main}[\[Working paper, with [Elena Pro](https://elena-pr.github.io){target="_blank"}\]]{.header-right}
+[The many-public: Challenging the empirical legitimacy of deliberative innovations]{.header-main}[, Working paper, with [Elena Pro](https://elena-pr.github.io){target="_blank"}]{.header-right}
 :::
 
 ::: folding-content
@@ -85,6 +88,7 @@ Citizens' assemblies and other deliberative mini-publics (DMPs) are promoted as 
 :::
 ::::::
 
+<!--
 :::::: folding-section
 ::: folding-header
 [What role for regional parliaments in the EU? A problem-based, comparative approach]{.header-main}[\[Working paper\]]{.header-right}
@@ -102,7 +106,7 @@ The reforms of the Lisbon Treaty introduced new political rights and instruments
 *Keywords: regional parliaments; European Union; democracy; parliamentary functions*
 :::
 ::::::
-
+ -->
 ## Projects
 
 ### European Regional Democracy Map
