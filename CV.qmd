@@ -4,8 +4,8 @@ page-class: cv-page
 ---
 ## CV
 
-You can find my academic CV below and [download it here](Documents/Kindermann_CV_11.24.pdf){target="_blank"} (Sep 25').
+You can find my academic CV below and [download it here](Documents/Kindermann_CV_11_24.pdf){target="_blank"} (Sep 25').
 
 ::: {.cv-container}
-<iframe src="Documents/Kindermann_CV_11.24.pdf" class="cv-embed"></iframe>
+<iframe src="Documents/Kindermann_CV_11_24.pdf" class="cv-embed"></iframe>
 :::
