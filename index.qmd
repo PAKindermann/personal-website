@@ -11,7 +11,7 @@ about:
       href: https://orcid.org/0000-0002-0695-9509
     - text: Bluesky
       icon: bluesky
-      href: https://bsky.app/profile/paulkindermann.bsky.social
+      href: https://bsky.app/profile/paul-kindermann.net
 ---
 
 I am a postdoc at the University of Southampton ([Department of Politics](https://www.southampton.ac.uk/about/faculties-schools-departments/economic-social-and-political-sciences/department-of-politics-and-international-relations)) and a visiting fellow at the London School of Economics and Political Science ([European Institute](https://www.lse.ac.uk/european-institute/people/kindermann-paul)), working at the intersection of empirical political science and (normative) political theory. Having recently submitted my PhD, I specialise in the comparative study of political participation and institutional design in Europe and I have a strong interest in the European Union; my [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy. See [my CV](CV.qmd) for further details on my background.
