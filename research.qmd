@@ -14,9 +14,9 @@ format:
 
 ## Research interests
 
-My research is located at the intersection of political sociology and democratic theory: I study the transformation of political participation and representation in liberal democracies and its implications for the desirability and feasibility of institutional reforms. A political scientist and theorist by training, I have conducted extensive qualitative fieldwork in Europe and am currently involved in an ERC-funded mixed-methods project on the formation of political process preferences ([PoPPiE](https://rikkidean.com/poppie_announcement/)).
+My research is located at the intersection of political sociology and democratic theory: I study the transformation of political representation and participation in liberal democracies and its implications for the desirability and feasibility of institutional reforms. A political scientist and theorist by training, I have conducted qualitative fieldwork in different European countries and I am currently involved in a multi-method project developing new survey measures of political process preferences in Western Europe ([PoPPiE](https://poppieproject.com/)). 
 
-Based on the main empirical and theoretical contributions of my doctoral project, I am working on different papers, some of which you can find below. I specialise in the comparative study of political participation and institutional design in Europe as well as EU studies, with a particular focus on the European Commission. Further research interests that connect to the main focus of my work include the study and formation of public opinion in (Western) Europe and mixed-methods, with a problem-driven approach to research design.
+In my research, I specialise in the comparative study of political participation and institutional design in Europe. I also have a strong interest in the European Union; my [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy. Currently, I am working on different papers that use quantitative methods and survey data to expand on the empirical findings and theoretical propositions of my doctoral research. These projects aim to explore the realistic conditions of implementing institutional reform and innovation, focusing on their public, political dynamics — and theorising the implications of these conditions for the promises of participatory and deliberative initiatives.
 
 ## Publications
 
@@ -26,9 +26,7 @@ Based on the main empirical and theoretical contributions of my doctoral project
 :::
 
 ::: folding-content
-[Abstract]{.abstract-toggle}
-[Article](https://doi.org/10.1080/13501763.2025.2554911){target="_blank" .external-link}
-[Data](https://doi.org/10.17605/OSF.IO/JHCXT){target="_blank" .external-link}
+[Abstract]{.abstract-toggle} [Article](https://doi.org/10.1080/13501763.2025.2554911){.external-link target="_blank"} [Data](https://doi.org/10.17605/OSF.IO/JHCXT){.external-link target="_blank"}
 :::
 
 ::: {.full-content .small-text}
@@ -36,7 +34,6 @@ The European Commission has increasingly invested in forms of direct citizen eng
 
 *Keywords: legitimation; European Union; citizen engagement; democratic innovations; institutional reform; social theory*
 :::
-
 ::::::
 
 ## Work in progress
@@ -51,17 +48,17 @@ The European Commission has increasingly invested in forms of direct citizen eng
 :::
 
 ::: {.full-content .small-text}
-*— Working paper, emerging work presented at MPSA 2025*
+*— Working paper, presentation at EPSS 2026*
 
-Democratic innovations such as deliberative mini-publics are promoted to revitalise democratic governance – for instance, by moderating partisan polarisation and rationalising public debate. Importantly, these promises depend on democratic innovations having a distinct public resonance: the wider citizenry, beyond the few citizens actually involved, is expected to evaluate such innovations as more legitimate than the status quo. We test this claim through a mixed-methods study in Western Europe. We first conduct group interviews (n=110) in Italy, Germany, and Ireland to understand *how* different groups of citizens make sense of the abstract institution of a minipublic. Based on these data, we develop three hypotheses about their public resonance. We propose that, first, there is a systematic divide between symbolic and politicised appraisals of democratic innovations – contrasting evaluative perspectives that are likely to produce divergent reactions under real-world political conditions. Second, the new 'cultural' cleavage in advanced democracies shapes respondents' political understanding of democratic innovations. Third, these systematically different understandings are substantively conflicting – pertaining to incongruent normative expectations towards minipublics. To test these theoretical propositions, we will conduct a representative survey experiment. Using realistic vignettes, we will leverage open-ended survey questions and quantitative text analysis to investigate how groups on opposite sides of the political cleavage describe their understanding and expectations of democratic innovations.
+Democratic innovations such as deliberative mini-publics are promoted to revitalise democratic governance – for instance, by moderating partisan polarisation and rationalising public debate. Importantly, these promises depend on democratic innovations having a distinct public resonance: the wider citizenry, beyond the few citizens actually involved, is expected to evaluate such innovations as more legitimate than the status quo. We test this claim through a multi-methods study in Western Europe. We first conduct group interviews (n=110) in Italy, Germany, and Ireland to understand *how* different groups of citizens make sense of the abstract institution of a mini-public. Based on these data, we develop three propositions about their public resonance. We propose that, first, there is a systematic divide between symbolic and politicised appraisals of democratic innovations – contrasting evaluative perspectives that are likely to produce divergent reactions under real-world political conditions. Second, the new 'cultural' cleavage in advanced democracies shapes respondents' political understanding of democratic innovations. Third, these systematically different understandings are substantively conflicting – pertaining to incongruent normative expectations towards mini-publics, and arguably citizen engagement more broadly. To test these theoretical propositions, we conduct a representative survey experiment. Priming respondents' political identities and perspectives, we will leverage open-ended survey questions and quantitative text analysis to investigate how groups on opposite sides of the political cleavage describe their understanding and expectations of democratic innovations.
 
-*Keywords: democratic innovation; politicisation; cleavage politics; political reasoning; mixed-methods*
+*Keywords: democratic innovation; politicisation; cleavage politics; political reasoning; open-ended survey questions*
 :::
 ::::::
 
 :::::: folding-section
 ::: folding-header
-[Innovating democracy for the worse? The promises of citizen participation in Europe]{.header-main}[, PhD thesis]{.header-right}
+[Democratic innovation without participation - Being involved rather than getting involved]{.header-main}[, Working paper]{.header-right}
 :::
 
 ::: folding-content
@@ -69,18 +66,16 @@ Democratic innovations such as deliberative mini-publics are promoted to revital
 :::
 
 ::: {.full-content .small-text}
-*— Monograph, submitted in Sep. 2025 to the London School of Economics and Political Science*
+*— Work in progress*
 
-Citizens assemblies, participatory budgeting, or deliberative polls are democratic innovations: institutional procedures that should transform citizens participation in political decision making. These innovations, particularly those that bear on citizen deliberation, have been trialled by public organisations in many European countries, and attracted significant funding. The electoral success of authoritarian populism led to a wealth of scholarship on their promise to rejuvenate liberal democracy by means of institutional design. For many exponents of this paradigm, the question is how rather than if these innovations can contribute to counteracting the disenchantment with democracy in European societies and democratising policy making on salient issues such as climate change.
+An influential body of scholarship describes the emergence of post-modern participatory demands in Western democracies: Citizens, and especially younger generations, are seeking greater and more individualised involvement in political decision-making. Democratic innovations such as citizens' assemblies and deliberative party reform are advocated as institutional responses to this popular demand for more participatory politics. We challenge this interpretation by focusing on the conflicting *meanings* of participation that underlie stated preferences and reactions amongst the public. Our argument is based on two empirical propositions. First, such participatory demands bear on different and substantively conflicting understandings of citizen engagement and participatory politics. Second, for a majority of the public, these understandings are not associated with individual participation; they construct the citizen as a relatively passive observer rather than an active agent. Support for greater citizen engagement and a more participatory politics, we suggest, rests to a significant extent on notions and potential expectations of *being* involved by rather than *getting* involved oneself. We develop these propositions through a series of qualitative group interviews in three West European countries and test them in two original surveys that leverage open-text responses.
 
-Through an analysis of three major promises of democratic innovation, this thesis argues that they may be innovating democracy for the worse. Rather than transcending political conflict, they become expressions of contemporary cleavage politics: competing understandings of citizen participation reproduce the very divisions innovations claim to resolve. Rather than reconnecting citizens with politics, they seem to embrace the social dislocation of democratic institutions. And rather than legitimating complex governance to and creating public acceptance, they seem to facilitate a simulation of democratic reform that serves to self-legitimate political institutional actors.
-
-These arguments rest on two original empirical studies. Group interviews with 98 participants across Germany, Italy, and Ireland examine how citizens themselves make sense of democratic innovations when confronted with realistic portrayals of their operation. Through systematic comparison of groups with different political leanings and social class positions, the study reconstructs the perspectives through which participants interpret innovations and develops a typology distinguishing agents from spectators based on their proximity to democratic institutions. A second study uses the European Union as an instrumental case to examine how elites and institutions understand and utilise democratic innovations. Through elite interviews (n=44), document analysis, and network data on approximately 300 actors, it traces the discourse and interactions through which sponsors, advocates, experts, and professionals construct a simulation of democratic reform.
-
-*Keywords: European integration; democratic theory; legitimation; public opinion; democratic innovations*
+*Keywords: Democratic innovations; participation; process preferences; Western Europe*
 :::
 ::::::
 
+
+```{=html}
 <!--
 :::::: folding-section
 ::: folding-header
@@ -100,6 +95,9 @@ Citizens' assemblies and other deliberative mini-publics (DMPs) are promoted as 
 :::
 ::::::
  -->
+```
+
+```{=html}
 <!--
 :::::: folding-section
 ::: folding-header
@@ -119,6 +117,8 @@ The reforms of the Lisbon Treaty introduced new political rights and instruments
 :::
 ::::::
  -->
+```
+
 ## Projects
 
 ### European Regional Democracy Map
