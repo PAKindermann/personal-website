@@ -40,7 +40,7 @@ The European Commission has increasingly invested in forms of direct citizen eng
 
 :::::: folding-section
 ::: folding-header
-[Politicising democratic innovations? Evidence on the divided public resonance of minipublics]{.header-main}[, Working paper]{.header-right}
+[Politicising democratic innovations? Evidence on the divided public resonance of minipublics]{.header-main}[, Working paper, with [Elena Pro](https://elena-pr.github.io){target="_blank"}]{.header-right}
 :::
 
 ::: folding-content
@@ -68,56 +68,11 @@ Democratic innovations such as deliberative mini-publics are promoted to revital
 ::: {.full-content .small-text}
 *— Work in progress*
 
-An influential body of scholarship describes the emergence of post-modern participatory demands in Western democracies: Citizens, and especially younger generations, are seeking greater and more individualised involvement in political decision-making. Democratic innovations such as citizens' assemblies and deliberative party reform are advocated as institutional responses to this popular demand for more participatory politics. We challenge this interpretation by focusing on the conflicting *meanings* of participation that underlie stated preferences and reactions amongst the public. Our argument is based on two empirical propositions. First, such participatory demands bear on different and substantively conflicting understandings of citizen engagement and participatory politics. Second, for a majority of the public, these understandings are not associated with individual participation; they construct the citizen as a relatively passive observer rather than an active agent. Support for greater citizen engagement and a more participatory politics, we suggest, rests to a significant extent on notions and potential expectations of *being* involved by rather than *getting* involved oneself. We develop these propositions through a series of qualitative group interviews in three West European countries and test them in two original surveys that leverage open-text responses.
+An influential body of scholarship describes the emergence of post-modern participatory demands in Western democracies: Citizens, and especially younger generations, are seeking greater and more individualised involvement in political decision-making. Democratic innovations such as citizens' assemblies and deliberative party reform are advocated as institutional responses to this popular demand for more participatory politics. We challenge this interpretation by focusing on the conflicting *meanings* of participation that underlie stated preferences and reactions amongst the public. Our argument is based on two empirical propositions. First, such participatory demands bear on different and substantively conflicting understandings of citizen engagement and participatory politics. Second, for a majority of the public, these understandings are not associated with individual participation; they construct the citizen as a relatively passive observer rather than an active agent. Support for greater citizen engagement and a more participatory politics, we suggest, rests to a significant extent on notions and potential expectations of *being* involved by politics rather than *getting* involved oneself. We develop these propositions through a series of qualitative group interviews in three West European countries and test them with original survey data making use of open-text responses.
 
 *Keywords: Democratic innovations; participation; process preferences; Western Europe*
 :::
 ::::::
-
-
-```{=html}
-<!--
-:::::: folding-section
-::: folding-header
-[The many-public: Challenging the empirical legitimacy of deliberative innovations]{.header-main}[, Working paper, with [Elena Pro](https://elena-pr.github.io){target="_blank"}]{.header-right}
-:::
-
-::: folding-content
-[Abstract]{.abstract-toggle}
-:::
-
-::: {.full-content .small-text}
-*— Paper accepted for presentation at MPSA Annual Conference 2025, Chicago, IL*
-
-Citizens' assemblies and other deliberative mini-publics (DMPs) are promoted as means to rejuvenate liberal democracy in the West. Advocates and scholars of DMPs maintain that these forms of direct citizen engagement are externally legitimate: their process is likely to find public acceptance, their outcomes to be perceived as fairer than those of mere representative institutions – not only among participants in the DMP itself. Based on the synthesis of different strands of empirical evidence and an original qualitative study, we challenge this proposition. We conduct 34 vignette-based group interviews in selected regions of three Western European countries (Germany, Ireland, and Italy) to understand how different social groups react to and form opinions on DMPs. Against this background, our study re-analyses observational and experimental evidence on public perceptions of DMPs to argue that it is implausible to interpret support for these processes and their outcomes as judgements of political legitimacy. As sponsored and designed forms of participation, DMPs can mean many yet contradictory things to different groups of citizens and in different political contexts. Extrapolated to real scenarios of political opinion formation and decision-making in Europe, the study's results challenge the theoretical expectations of deliberative theory regarding the potential of DMPs to rejuvenate public confidence in the democratic process. The conclusion discusses avenues of further empirical research to test the studies' arguments.
-
-*Keywords: legitimacy, representation, mini-publics, public opinion, group interviews*
-:::
-::::::
- -->
-```
-
-```{=html}
-<!--
-:::::: folding-section
-::: folding-header
-[What role for regional parliaments in the EU? A problem-based, comparative approach]{.header-main}[\[Working paper\]]{.header-right}
-:::
-
-::: folding-content
-[Abstract]{.abstract-toggle}
-:::
-
-::: {.full-content .small-text}
-*— Paper presented at CES Annual Conference 2022, Lisbon*
-
-The reforms of the Lisbon Treaty introduced new political rights and instruments for regional parliaments with legislative competences in the EU. Not only but especially since Lisbon, we find a prevailing narrative that regional parliaments should be empowered and increasingly involved in EU affairs because of their potential to (further) democratise the EU. However, it remains theoretically ambiguous how their involvement does or would actually induce this democratic added value. Against this background, the paper outlines a normative analysis of the democratic role of regional parliaments in the EU: Drawing on democratic theory and comparative legislative studies, I develop a problem-based approach to analyse which regional parliamentary function could serve which democratic purpose in the multilevel system. I then apply the approach and highlight a key issue of the narrative of regional parliamentary empowerment: Juxtaposing accountability vs. responsiveness functions, I discusses the risk of false equivalence of different parliamentary functions — which is suggested by typologies of potential roles of regional parliaments in an EU multilevel parliamentary system.
-
-*Keywords: regional parliaments; European Union; democracy; parliamentary functions*
-:::
-::::::
- -->
-```
 
 ## Projects
 
