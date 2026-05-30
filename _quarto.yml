@@ -8,6 +8,9 @@ project:
   - teaching.qmd
   - CV.qmd
   - contact.qmd
+  resources:
+  - CNAME
+  - .nojekyll
 
 website:
   title: "Paul Kindermann"

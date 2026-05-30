@@ -2,7 +2,7 @@
 title: ""
 page-class: cv-page
 ---
-## CV
+# CV
 
 You can find my academic CV below and [download it here](Documents/CV_Kindermann_12_25.pdf){target="_blank"} (Dec 25').
 

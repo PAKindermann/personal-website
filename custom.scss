@@ -4,22 +4,26 @@
 }
 
 /*-- scss:defaults --*/
-// Set specific pixel size for root element
 $font-size-root: 17px !default;
 $font-size-base: 1rem !default;
-// Base font adjustment
+// Base font 
 $font-family-base: "EB Garamond", Garamond, "Garamond Premier Pro", "Adobe Garamond Pro", "ITC Garamond", "Garamond MT", "Bitstream Garamond", Palatino, "Palatino Linotype", Georgia, serif !default;
 // Heading font (sans-serif)
 $font-family-sans-serif: "Helvetica Neue", Arial, Helvetica, sans-serif !default;
 $font-size-base:        1rem !default;
-$h1-font-size:          1.6rem !default;
-$h3-font-size:          1.2rem !default;
-$h4-font-size:          1.1rem !default;
+$enable-rfs:            false !default;   
+$h1-font-size:          1.45rem !default;
+$h2-font-size:          1.3rem !default;
+$h3-font-size:          1.1rem !default;
+$h4-font-size:          1rem !default;
 $headings-font-family: $font-family-sans-serif !default;
 $headings-font-weight:  500 !default;
 
 h1, h2, h3, h5, h6 {
   font-family: $headings-font-family;
+}
+
+h1, h3, h5, h6 {
   color: black !important;
 }
 
@@ -43,20 +47,34 @@ h4, .h4 {
   color: rgb(38,67,72) !important;
 }
 
-// Navbar etc.
+// Navbar
 $navbar-bg:             rgb(38,67,72);
 $font-family-navbar:    $font-family-sans-serif !default;
 $toc-active-border:     white;
 
 /*-- scss:rules --*/
-// Set specific pixel size for root element
 html {
   font-size: $font-size-root;
 }
 
+// ============================================
+// HEADINGS
+// ============================================
+
+
+h2 {
+  color: rgb(38, 67, 72) !important;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-style: italic;
+}
+
 // Font sizes for body elements
 body, p, div, li {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 .small-text {
@@ -69,7 +87,6 @@ body, p, div, li {
   min-height: 50px;
 }
 
-// Define a mixin for button styles
 @mixin button-style {
   display: inline-block;
   padding: 0.1em 0.6em;
@@ -121,7 +138,7 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
 }
 
 // ============================================
-// ABOUT PAGE STYLES (Home page using about template)
+// PAGE STYLES 
 // ============================================
 
 .about-entity {
@@ -167,7 +184,6 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
       margin-bottom: 1rem;
       color: rgb(38,67,72);
       
-      // Remove the h1 underline for the about page title
       &:first-child {
         border: none;
         padding-bottom: 0;
@@ -183,6 +199,31 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
       line-height: 1.6;
       margin-bottom: 1rem;
     }
+  }
+}
+
+// ============================================
+// HOME PAGE
+// ============================================
+
+.quarto-about-trestles .about-entity .about-links .about-link {
+  &:hover {
+    color: white; 
+  }
+}
+
+// ============================================
+// HOME PAGE
+// ============================================
+
+@media (min-width: 992px) {
+  .quarto-about-trestles .about-entity {
+    flex: 0 0 46%; 
+  }
+
+  .quarto-about-trestles .about-entity .about-image {
+    width: 100% !important; 
+    max-width: 20rem;       
   }
 }
 
@@ -269,14 +310,14 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
 }
 
 // ============================================
-// REVISED FOLDING SECTION STYLES - PROPERLY FIXED
+// REVISED FOLDING SECTION STYLES
 // ============================================
 
 // Folding section base styles
 .folding-section {
   margin-bottom: 1.5rem;
-  width: 100%; // Ensure full width
-  overflow: visible; // Don't hide overflow
+  width: 100%; 
+  overflow: visible; 
   
   // Active state
   &.active {
@@ -304,12 +345,12 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
   }
 }
 
-// Folding header - simplified flex approach
+// Folding header
 .folding-header {
   display: flex;
-  flex-wrap: wrap; // Allow wrapping when needed
-  align-items: baseline; // Better alignment
-  gap: 1rem; // Use gap for consistent spacing
+  flex-wrap: wrap; 
+  align-items: baseline; 
+  gap: 1rem; 
   
   // Base typography
   font-size: 1rem;
@@ -320,36 +361,34 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
   padding: 0.3rem 0;
   line-height: 1.5;
   
-  // Ensure content doesn't overflow
   width: 100%;
   max-width: 100%;
 }
 
 // Header main content
 .header-main {
-  flex: 1 1 70%; // Allow shrinking, prefer 70% width
-  min-width: 0; // Critical for text truncation in flexbox
+  flex: 1 1 70%; 
+  min-width: 0; 
   
-  // Text handling - no breaking, just wrapping
+  // Text handling 
   word-wrap: normal;
-  word-break: normal; // Don't break words
-  overflow-wrap: normal; // Don't break words
-  hyphens: none !important; // Force no hyphenation
+  word-break: normal; 
+  overflow-wrap: normal; 
+  hyphens: none !important; 
   -webkit-hyphens: none !important;
   -moz-hyphens: none !important;
   -ms-hyphens: none !important;
   
-  // Ensure text stays visible
   overflow: visible;
   text-overflow: clip;
 }
 
 // Header right content
 .header-right {
-  flex: 0 1 auto; // Can shrink if needed
+  flex: 0 1 auto; 
   font-weight: normal;
-  white-space: nowrap; // Keep journal info together
-  min-width: fit-content; // Ensure it doesn't get too small
+  white-space: nowrap; 
+  min-width: fit-content; 
 }
 
 // Folding content area
@@ -371,69 +410,66 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
 // RESPONSIVE ADJUSTMENTS
 // ============================================
 
-// Larger screens - side by side layout
+// Larger screens 
 @media (min-width: 992px) {
   .folding-header {
-    flex-wrap: nowrap; // Keep on one line on desktop
+    flex-wrap: nowrap; 
     
     .header-main {
       flex: 1 1 auto;
     }
     
     .header-right {
-      margin-left: auto; // Push to the right
+      margin-left: auto; 
     }
   }
 }
 
-// Tablet - allow wrapping if needed
+// Tablet 
 @media (min-width: 768px) and (max-width: 991px) {
   .folding-header {
     .header-main {
-      flex: 1 1 60%; // Take up less space to leave room
+      flex: 1 1 60%; 
     }
   }
 }
 
-// Mobile - stack elements
+// Mobile 
 @media (max-width: 767px) {
   html {
     font-size: 15px;
   }
   
   .folding-header {
-    flex-direction: column; // Stack vertically
+    flex-direction: column; 
     gap: 0.5rem;
     
     .header-main {
-      flex: 1 1 100%; // Full width
+      flex: 1 1 100%; 
       width: 100%;
       
-      // Allow text to wrap naturally but don't break words
       white-space: normal;
       word-break: normal;
-      overflow-wrap: break-word; // Only break very long continuous strings
+      overflow-wrap: break-word; 
     }
     
     .header-right {
-      flex: 1 1 100%; // Full width
+      flex: 1 1 100%; 
       font-size: 0.95rem;
-      white-space: normal; // Allow wrapping on mobile
-      align-self: flex-start; // Align to start
+      white-space: normal; 
+      align-self: flex-start; 
     }
   }
 }
 
-// Very small screens - emergency handling
+// Very small screens 
 @media (max-width: 480px) {
   .folding-header {
     .header-main {
-      font-size: 0.95rem; // Slightly smaller text
+      font-size: 0.95rem;
       
-      // Last resort - allow breaking very long words
       word-break: break-word;
       overflow-wrap: anywhere;
-      // But still no hyphens
       hyphens: none !important;
     }
     
@@ -443,7 +479,6 @@ a:not(.navbar a):not(.footer a):not(.abstract-toggle):not(.external-link):not(.a
   }
 }
 
-// Alternative fix: Force no hyphens globally for folding sections
 .folding-section * {
   -webkit-hyphens: none !important;
   -moz-hyphens: none !important;

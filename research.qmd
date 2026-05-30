@@ -12,13 +12,13 @@ format:
           <script src="research-script.js"></script>
 ---
 
-## Research interests
+# Research interests
 
 My research is located at the intersection of political sociology and democratic theory: I study the transformation of political representation and participation in liberal democracies and its implications for the desirability and feasibility of institutional reforms. A political scientist and theorist by training, I have conducted qualitative fieldwork in different European countries and I am currently involved in a multi-method project developing new survey measures of political process preferences in Western Europe ([PoPPiE](https://poppieproject.com/)). 
 
 In my research, I specialise in the comparative study of political participation and institutional design in Europe. I also have a strong interest in the European Union; my [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy. Currently, I am working on different papers that use quantitative methods and survey data to expand on the empirical findings and theoretical propositions of my doctoral research. These projects aim to explore the realistic conditions of implementing institutional reform and innovation, focusing on their public, political dynamics — and theorising the implications of these conditions for the promises of participatory and deliberative initiatives.
 
-## Publications
+# Publications
 
 :::::: folding-section
 ::: folding-header
@@ -36,7 +36,7 @@ The European Commission has increasingly invested in forms of direct citizen eng
 :::
 ::::::
 
-## Work in progress
+# Work in progress
 
 :::::: folding-section
 ::: folding-header
@@ -74,9 +74,9 @@ An influential body of scholarship describes the emergence of post-modern partic
 :::
 ::::::
 
-## Projects
+# Projects
 
-### European Regional Democracy Map
+## European Regional Democracy Map
 
 As part of the [Regioparl](https://www.regioparl.com/?lang=en){target="_blank"} project (2020-22), Sarah Meyer, Mario Wolf, and I lead the design and implementation of the European Regional Democracy Map (ERDM), in a collaboration with [Arjan Schakel](https://www.arjanschakel.nl){target="blank"}. The ERDM was conceived as a hub for various kinds of information and data on the structures and political dynamics of regional democracy in Europe. Researchers can find, explore, and download a broad array of data on regional government, regional election results and governing coalitions across the continent, as well as regional involvement in EU affairs.
 

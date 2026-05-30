@@ -4,7 +4,7 @@ about:
   template: trestles
   image: personalphoto.jpeg
   image-shape: rectangle
-  image-width: 15rem
+  image-width: 16rem
   links:
     - text: ORCiD
       icon: mortarboard
@@ -14,8 +14,12 @@ about:
       href: https://bsky.app/profile/paul-kindermann.net
 ---
 
-I am a postdoc at the University of Southampton ([Department of Politics](https://www.southampton.ac.uk/about/faculties-schools-departments/economic-social-and-political-sciences/department-of-politics-and-international-relations)) and a visiting fellow at LSE ([European Institute](https://www.lse.ac.uk/european-institute/people/kindermann-paul)), working at the intersection of political sociology and normative political theory. In my [research](research.qmd), I specialise in the comparative study of political participation and institutional design in Europe, and I have a strong interest in the European Union; my [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy. See [my CV](CV.qmd) for further details on my background.
+I am a postdoc at the [University of Southampton](https://www.southampton.ac.uk/people/66znvm/doctor-paul-kindermann), Department of Politics, and a visiting fellow at the LSE [European Institute](https://www.lse.ac.uk/european-institute/people/kindermann-paul), working at the intersection of political sociology and normative political theory. In my [research](research.qmd), I specialise in the comparative study of political participation and institutional design in Europe, and I have a strong interest in the European Union; my [first article](https://doi.org/10.1080/13501763.2025.2554911) on the role of democratic innovations in the EU has been published in the Journal of European Public Policy. See [my CV](CV.qmd) for further details on my background.
 
-My doctoral research at LSE has been funded by an [LSE](https://www.lse.ac.uk/study-at-lse/Graduate/Fees-and-funding/PhD-Studentships){target="_blank"} studentship, a fieldwork scholarship from [UACES](https://www.uaces.org/funding/scholarships){target="_blank"}, and a project grant from the [Otto Brenner Foundation](https://www.otto-brenner-stiftung.de/wissenschaftsportal/projektantragsverfahren){target="_blank"}.
+During my graduate studies in Europe and the United States, I have taught seminars on these subjects at LSE, in Frankfurt, and Hamburg. Besides, I am a mentor at the Friedrich-Ebert-Foundation. Please [get in touch](contact.qmd) about collaborations, ideas, and questions!
 
-During my graduate studies in Europe and the United States, I have [taught](teaching.qmd) seminars on these subjects at LSE, in Frankfurt, and Hamburg. Besides, I am a mentor at the Friedrich-Ebert-Foundation. Please [get in touch](contact.qmd) about collaborations, ideas, and questions!
+<!-- ## Research -->
+
+<!-- Simulating democratic reform in the EU: self-legitimation through participatory innovation, *Journal of European Public Policy*, 2025, DOI: [10.1080/13501763.2025.2554911](https://doi.org/10.1080/13501763.2025.2554911) -->
+
+<!-- Politicising democratic innovations? Evidence on the divided public resonance of minipublics, Working paper, with [Elena Pro](https://elena-pr.github.io) -->
